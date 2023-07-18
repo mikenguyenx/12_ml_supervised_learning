@@ -1,4 +1,4 @@
-Credit Risk Analysis Report
+# Credit Risk Analysis Report
 
 ## Overview of the Analysis
 
@@ -16,7 +16,7 @@ As part of this analysis, the following stages of the machine learning proess we
  - Model Evaluation
  - Model Deployment
 
-Below provides basic information about the variables you were trying to predict (e.g., `value_counts`):
+Below provides basic information about the variables being predicted (e.g., value_counts):
 ```bash
 # Check the balance of our target values
 y.value_counts()
