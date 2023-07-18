@@ -25,7 +25,7 @@ y.value_counts()
 Name: loan_status, dtype: int64
 ```
 
-The Machine Learning model that was used was the Logistic Regression Classifer, which is a widely used statistical method for binary classification problems.   I
+The Machine Learning model that was used was the Logistic Regression Classifer, which is a widely used statistical method for binary classification problems.   
 
 ## Results
 
@@ -36,7 +36,7 @@ Below describes the balanced accuracy scores and the precision and recall scores
 
 ![original](original.png)
 
-For healthy loans, the model achieved a precision score (accuracy of positive predictions) of 1 meaning it correctly predicts a loan as healthy 100% of the time. The model has a recall (true positive rate) of .99 meaning that it correctly identifies 99% of the healthy loans. The model has a specificity of .91 meaning that it correctly identifies 91% of the actual high-risk loans as high-risk. The F1 score (harmonic mean of precision and recall) is 1.00 which is a balanced measure of precision and recall.
+  * For healthy loans, the model achieved a precision score (accuracy of positive predictions) of 1 meaning it correctly predicts a loan as healthy 100% of the time. The model has a recall (true positive rate) of .99 meaning that it correctly identifies 99% of the healthy loans. The model has a specificity of .91 meaning that it correctly identifies 91% of the actual high-risk loans as high-risk. The F1 score (harmonic mean of precision and recall) is 1.00 which is a balanced measure of precision and recall.
 
 
 * Machine Learning Model 2: Logistic Regression Classifer (fitted with balanced/resampled data)
@@ -44,7 +44,7 @@ For healthy loans, the model achieved a precision score (accuracy of positive pr
 
 ![resampled](resampled.png)
 
-The logistic regression model, fit with resampled data, saw in improvement in the recall (from 91% to 99%) for high-risk loans. This is a significant improvement which is important for the company as they are focused on trying to identify individuals with high credit risk.
+  * The logistic regression model, fit with resampled data, saw in improvement in the recall (from 91% to 99%) for high-risk loans. This is a significant improvement which is important for the company as they are focused on trying to identify individuals with high credit risk.
 
 
 ## Summary
