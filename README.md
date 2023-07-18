@@ -49,12 +49,12 @@ This challenge consists of the following subsections:
 
 - Write a Credit Risk Analysis Report
 
-## Supervised Learning Logistic Regression Model
+## Supervised Learning Logistic Regression Classifier Model
 
-### Classification Report - Original Data
+### Results from Original Data
 ![original](original.png)
 
-### Classification Report - Resampled Data
+### Results from Resampled Data
 ![resampled](resampled.png)
 
 ## Contributors
